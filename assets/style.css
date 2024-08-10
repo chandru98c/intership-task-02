@@ -12,6 +12,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+  overflow-x: hidden;
 }
 section {
   padding-top: 35px;
@@ -232,7 +233,7 @@ nav {
     grid-template-columns: 1fr;
     width: 100%;
     padding: 20px !important;
-    overflow-x: hidden;
+ 
   }
   .marketing-content {
     padding: 20px 0px !important;
