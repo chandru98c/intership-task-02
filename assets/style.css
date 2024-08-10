@@ -12,10 +12,13 @@ body {
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
 }
 section {
   padding-top: 35px;
+  position: relative;
+  overflow: hidden;
 }
 /* header */
 header {
@@ -226,14 +229,14 @@ nav {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
-  font-style: normal;
+  font-style: normal;  
 }
 @media (max-width: 800px) {
   .marketing-container {
     grid-template-columns: 1fr;
     width: 100%;
     padding: 20px !important;
- 
+    
   }
   .marketing-content {
     padding: 20px 0px !important;
@@ -288,19 +291,24 @@ nav {
   max-width: 100%;
   height: auto;
   display: block;
+  
 }
 .m-png {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
+
 }
 
 .market-image-bg {
   position: absolute;
   bottom: -340px;
-  left: -480px;
+  left: -420px;
   z-index: -2;
+
+  display: block;
   transform: rotate(5deg);
 }
 @media (max-width: 800px) {
